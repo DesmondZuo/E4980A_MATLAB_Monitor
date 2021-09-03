@@ -5,6 +5,8 @@ This is a MATLAB Interface for real time data reading & recording on Agilent E49
 
 This program is tested on MATLAB 2015b 32bits (must be 32bits due to the IVI-COM driver restriction)
 
+Note: Instrument Control Package must be installed. You can install it by checking the box during MATLAB installation.
+
 
 If it doesn't work, check resourceDesc @ about line 25, use Keysight Connection Expert to determine the real address
 The address I am using is for connection via USB.
